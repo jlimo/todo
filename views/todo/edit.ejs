@@ -1,0 +1,8 @@
+<%- include('../partials/boilerplate') %>
+
+<form method="POST" action="/todo/ <%= todo.id %>?_method=PUT">
+<input type="text" name="name" value="<%= todo.name %>" placeholder="name" />
+<input type="text" name="description" value="<%= todo.description %>" placeholder="description" />
+</form>
+
+<%- include('../partials/end') %>

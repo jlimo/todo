@@ -1,6 +1,5 @@
-CREATE TABLE IF NOT EXISTS pokedex (
+CREATE TABLE IF NOT EXISTS todo (
     id SERIAL PRIMARY KEY,
-    pokemon VARCHAR(255) NOT NULL,
-    type VARCHAR(255),
-    gen INTEGER
+    name VARCHAR(255),
+    description VARCHAR(255)
 );
